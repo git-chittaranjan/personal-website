@@ -2,20 +2,14 @@
 
 This is a simple web application built with **React** and **Tailwind CSS**. It includes a navigation bar, footer with social media links, and a main body that displays:
 
-- A static banner image
-- Personal details section
-- Fetched images from an external API
-- A motivational thought section
 
+## Features
+- Responsive design for all screen sizes
+- Interactive project portfolio
+- About section with Bio and Skills
+- Resume/CV download
+- Contact form integration with EmailJS
 
-
-## 🚀 Features
-
-- ⚛️ React functional components
-- 🎨 Tailwind CSS for modern styling
-- 🌐 API integration with [Picsum.photos](https://picsum.photos) to fetch sample images
-- 📱 Responsive layout with minimal design
-- 🔗 Social media footer links
 
 ## Reference Website
 https://yashkapure.netlify.app/#
