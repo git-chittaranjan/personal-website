@@ -35,7 +35,7 @@ const HomePage = () => {
 
 
                     {/* Right: Text Content Section */}
-                    <article className="flex flex-col justify-center text-gray-300 p-6">
+                    <article className="flex flex-col justify-center text-gray-300 lg:p-6">
                         <h1 className="text-3xl font-bold mb-4">Welcome to my Portfolio!</h1>
 
                         <p className="text-lg text-gray-300 leading-relaxed mb-4">
