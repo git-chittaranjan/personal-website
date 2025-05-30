@@ -67,10 +67,10 @@ export default function SkillsSection() {
         <div className="pt-10 lg:pt-20 pb-10 lg:pb-20">
             
             <div
-                className="relative min-h-screen bg-cover bg-center transition-all duration-1500 hover:brightness-80 pb-10"
+                className="relative min-h-screen bg-cover bg-center transition-all pb-10"
                 style={{ backgroundImage: "url('/assets/skill.jpg')" }}
             >
-                <div className="absolute inset-0 bg-black/50"></div>
+                <div className="absolute inset-0 bg-black/70"></div>
 
                 <div className="relative z-10 min-h-screen flex flex-col items-center justify-center p-6">
 

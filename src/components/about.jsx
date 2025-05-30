@@ -4,10 +4,10 @@ import AboutCard from './about-card';
 const About = () => {
     return (
         <div className=" pt-10 lg:pt-20 pb-10 lg:pb-20">
-            <div className="w-full max-w-6xl mx-auto px-6  flex flex-col md:flex-row items-center gap-10 lg:gap-30">
+            <div className="w-full max-w-8xl mx-auto flex flex-col md:flex-row items-center gap-10 lg:gap-30">
 
                 {/* Left Side: Title and Description */}
-                <div className="flex-1">
+                <div className="flex-1 px-6">
                     <div className="mb-6">
                         <h2 className="text-3xl font-bold px-2 text-gray-200">
                             About Me
@@ -35,7 +35,7 @@ const About = () => {
                 </div>
 
                 {/* Right Side: Image */}
-                <div className="flex-1 lg:pt-15 lg:pl-6 lg:pr-12 w-full">
+                <div className="flex-1 lg:pt-15 lg:pl-6 lg:pr-6 w-full">
                     <AboutCard />
                 </div>
             </div>

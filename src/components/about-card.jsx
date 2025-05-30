@@ -26,7 +26,7 @@ const AboutCard = () => {
                 style={{ backgroundImage: "url('/assets/about.jpeg')" }}
             >
                 {/* Overlay a semi-transparent layer above the background image but below the content. */}
-                <div className="absolute inset-0 bg-black/80"></div>
+                <div className="absolute inset-0 bg-black/70"></div>
 
                 <div className="relative z-10 flex flex-col">
                     <div className="flex flex-col px-4 pb-3">
@@ -37,7 +37,7 @@ const AboutCard = () => {
                         </div>
 
                         {info.map(({ label, value }) => (
-                            <div key={label} className="flex flex-row text-sm text-gray-100 py-1 px-2">
+                            <div key={label} className="flex flex-row text-sm text-gray-300 py-1 px-2">
                                 <span className="font-bold pr-2">{label}:</span>
                                 <span>{value}</span>
                             </div>

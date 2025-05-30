@@ -12,7 +12,7 @@ import ProjectGrid from './components/projects';
 function App() {
 
   return (
-    <div className="flex flex-col min-h-screen bg-[#191f14]">
+    <div className="flex flex-col min-h-screen bg-black">
       <Navbar />
 
       <main className="flex-grow container mx-auto p-6 pt-8">

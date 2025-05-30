@@ -8,7 +8,7 @@ const Navbar = () => {
     const toggleMenu = () => setIsOpen(!isOpen);
 
     return (
-        <header className="w-full bg-black">
+        <header className="w-full bg-black border-b-2 border-white">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
 
 
@@ -22,14 +22,14 @@ const Navbar = () => {
                         {isOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
                     </button>
 
-                    <a href="/" className="sm:text-xl md:text-2xl font-bold text-gray-300">
+                    <a href="/" className="sm:text-xl md:text-2xl font-bold text-white">
                         Chittaranjan Saha
                     </a>
                 </div>
 
 
                 {/* Desktop Navigation */}
-                <nav className="hidden md:flex space-x-6 text-sm font-medium text-gray-200">
+                <nav className="hidden md:flex space-x-6 text-sm font-bold text-white">
                     <a href="/" className="hover:text-black hover:bg-gray-200 px-2 py-1 rounded">Home</a>
                     <a href="#skills" className="hover:text-black hover:bg-gray-200 px-2 py-1 rounded">Skills</a>
                     <a href="#about" className="hover:text-black hover:bg-gray-200 px-2 py-1 rounded">About</a>
@@ -47,13 +47,13 @@ const Navbar = () => {
 
             {/* Mobile Navigation */}
             {isOpen && (
-                <div className="md:hidden px-4 pb-4 space-y-2 text-sm font-medium text-gray-200">
-                    <a href="/" className="block px-4 text-white hover:text-orange-500 active:bg-gray-300 rounded-2xl">Home</a>
-                    <a href="#skills" className="block px-4 text-white hover:text-orange-500 active:bg-gray-300 rounded-2xl">Skills</a>
-                    <a href="#about" className="block px-4 text-white hover:text-orange-500 active:bg-gray-300 rounded-2xl">About</a>
-                    <a href="#experience" className="block px-4 text-white hover:text-orange-500 active:bg-gray-300 rounded-2xl">Experience</a>
-                    <a href="#projects" className="block px-4 text-white hover:text-orange-500 active:bg-gray-300 rounded-2xl">Projects</a>
-                    <a href="#contact" className="block px-4 text-white hover:text-orange-500 active:bg-gray-300 rounded-2xl">Contact</a>
+                <div className="md:hidden px-4 pb-4 space-y-2 text-sm font-medium text-white">
+                    <a href="/" className="block px-4 text-white hover:text-orange-500 active:bg-gray-600 rounded-2xl">Home</a>
+                    <a href="#skills" className="block px-4 text-white hover:text-orange-500 active:bg-gray-600 rounded-2xl">Skills</a>
+                    <a href="#about" className="block px-4 text-white hover:text-orange-500 active:bg-gray-600 rounded-2xl">About</a>
+                    <a href="#experience" className="block px-4 text-white hover:text-orange-500 active:bg-gray-600 rounded-2xl">Experience</a>
+                    <a href="#projects" className="block px-4 text-white hover:text-orange-500 active:bg-gray-600 rounded-2xl">Projects</a>
+                    <a href="#contact" className="block px-4 text-white hover:text-orange-500 active:bg-gray-600 rounded-2xl">Contact</a>
                 </div>
             )}
         </header>

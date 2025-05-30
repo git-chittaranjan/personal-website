@@ -53,7 +53,7 @@ const AvatarButton = () => {
             {isCardOpen && (
                 <div
                     ref={cardRef}
-                    className="absolute z-20 mt-2 w-64 right-0 bg-[#242e1c] rounded-lg shadow-lg p-4 border border-gray-400"
+                    className="absolute z-20 mt-2 w-64 right-0 bg-gray-900 rounded-lg shadow-lg p-4 border border-gray-400"
                 >
                     <div className="flex items-center space-x-4">
                         <img
@@ -66,7 +66,7 @@ const AvatarButton = () => {
                             <p className="text-xs text-gray-400">Full Stack Developer</p>
                         </div>
                     </div>
-                    <div className="mt-4 text-sm text-gray-300">
+                    <div className="mt-4 text-sm text-gray-200">
                         <p>Email: git.chittaranjan@gmail.com</p>
                         <p className="pt-0.5">Phone: +91-62XXXXXX35</p>
 
@@ -74,6 +74,7 @@ const AvatarButton = () => {
                         <ul className="list-disc list-inside ml-4">
                             <li>.NET Core (MVC + Web API)</li>
                             <li>React</li>
+                            <li>Java Script</li>
                             <li>SQL Server</li>
                             <li>Project Management</li>
                         </ul>

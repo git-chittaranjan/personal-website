@@ -53,7 +53,7 @@ const ExperienceTree = () => {
                 style={{ backgroundImage: "url('/assets/experience.jpg')" }}
             >
                 {/* Overlay a semi-transparent layer above the background image but below the content. */}
-                <div className="absolute inset-0 bg-black/60" />
+                <div className="absolute inset-0 bg-black/70" />
 
                 <div className="relative z-10 min-h-screen flex flex-col md:pb-20" >
 
