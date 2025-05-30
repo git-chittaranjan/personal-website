@@ -16,8 +16,8 @@ const projects = [
             "JS"
         ],
         image: "/assets/personal-website.png",
-        liveLink: "https://youtube.com/",
-        sourceLink: "https://youtube.com/",
+        visitLink: "https://www.chittaranjansaha.com/",
+        codeLink: "https://github.com/git-chittaranjan/personal-website",
     },
     {
         id: 2,
@@ -32,8 +32,8 @@ const projects = [
             "ErrorBoundary"
         ],
         image: "/assets/certificate-verification.png",
-        liveLink: "#",
-        sourceLink: "#",
+        visitLink: "https://projects.certificate-verification.chittaranjansaha.com/?id=EMLC-0325-ETCUYZW0I1",
+        codeLink: "https://github.com/git-chittaranjan/certificate-verification-app",
     },
     {
         id: 3,
@@ -47,8 +47,8 @@ const projects = [
             "Fetch API"
         ],
         image: "/assets/invoice.png",
-        liveLink: "#",
-        sourceLink: "#",
+        visitLink: "#",
+        codeLink: "https://github.com/git-chittaranjan/invoice-pdf-generator",
     },
     {
         id: 4,
@@ -61,8 +61,8 @@ const projects = [
             "Bootstrap"
         ],
         image: "/assets/mvc.png",
-        liveLink: "#",
-        sourceLink: "#",
+        visitLink: "#",
+        codeLink: "#",
     },
     {
         id: 5,
@@ -76,8 +76,8 @@ const projects = [
             "API Integration"
         ],
         image: "/assets/shopping.png",
-        liveLink: "#",
-        sourceLink: "#",
+        visitLink: "#",
+        codeLink: "https://github.com/git-chittaranjan/shopping-cart",
     },
 ];
 
@@ -137,7 +137,7 @@ export default function ProjectGrid() {
                                 </div>
                                 <div className="flex space-x-4 mt-auto">
                                     <a
-                                        href={project.liveLink}
+                                        href={project.visitLink}
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="flex items-center justify-center gap-2 flex-1 bg-amber-500 hover:bg-amber-600 text-black font-bold py-2 px-4 rounded-xl text-center"
@@ -148,7 +148,7 @@ export default function ProjectGrid() {
                                         Visit
                                     </a>
                                     <a
-                                        href={project.liveLink}
+                                        href={project.codeLink}
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="flex items-center justify-center gap-2 flex-1 bg-amber-500 hover:bg-amber-600 text-black font-bold py-2 px-4 rounded-xl text-center"
