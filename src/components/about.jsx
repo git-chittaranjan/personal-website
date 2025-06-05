@@ -3,7 +3,7 @@ import AboutCard from './about-card';
 
 const About = () => {
     return (
-        <div className=" pt-10 lg:pt-20 pb-10 lg:pb-20">
+        <div className="pt-30 lg:pt-40 lg:pb-10">
             <div className="w-full max-w-8xl mx-auto flex flex-col md:flex-row items-center gap-10 lg:gap-30">
 
                 {/* Left Side: Title and Description */}

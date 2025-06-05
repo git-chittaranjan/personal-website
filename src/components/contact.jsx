@@ -47,7 +47,7 @@ const GetInTouch = () => {
     };
 
     return (
-        <div className='pt-10 lg:pt-20 pb-10 lg:pb-20'>
+        <div className='pt-30 lg:pt-30 pb-10 lg:pb-20'>
             <div
                 className="relative min-h-screen bg-cover bg-center ransition-all duration-1500"
                 style={{ backgroundImage: "url('/assets/contact.jpg')" }}

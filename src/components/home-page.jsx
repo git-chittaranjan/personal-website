@@ -1,37 +1,16 @@
 
 import { motion } from "framer-motion";
 import DownloadPDFButton from "./resume-download";
+import HomeImage from "./home-imaje";
 
 const HomePage = () => {
     return (
-        <div className="pb-10 bg-black">
+        <div className="bg-black pt-20">
             <div className="min-h-[85vh] flex items-center justify-center">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-8xl w-full">
 
-                    <div className="relative w-full min-h-[40vh] md:min-h-[60vh] lg:min-h-[80vh] overflow-hidden">
-                        {/* Background GIF */}
-                        <div className="absolute inset-0 z-10">
-                            <img
-                                src="/assets/home.gif"
-                                alt="Background"
-                                className="w-full h-full object-cover"
-                            />
-                        </div>
-
-                        {/* Foreground Image */}
-                        <div className="relative z-20 flex justify-center items-center h-full">
-                            <div className="group transition duration-300 ease-in-out transform hover:scale-120">
-                                <img
-                                    src="/assets/landscape.png"
-                                    alt="My Image"
-                                    className="w-50 h-50 sm:w-65 sm:h-65 md:w-75 md:h-75 lg:w-80 lg:h-80 rounded-full border-4 border-yellow-400 shadow-lg group-hover:ring-4 group-hover:ring-cyan-600 transition-all duration-300"
-                                />
-                            </div>
-                        </div>
-
-                        {/* Optional overlay for better contrast */}
-                        <div className="absolute inset-0 bg-black bg-opacity-30 z-5" />
-                    </div>
+                    {/* Home Page Left: Animated Image Section */}
+                    <HomeImage />
 
 
                     {/* Right: Text Content Section */}
@@ -65,7 +44,7 @@ const HomePage = () => {
 
                 </div>
             </div>
-        </div>
+        </div >
     );
 };
 

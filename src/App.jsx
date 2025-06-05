@@ -15,7 +15,7 @@ function App() {
     <div className="flex flex-col min-h-screen bg-black">
       <Navbar />
 
-      <main className="flex-grow container mx-auto p-6 pt-8">
+      <main className="flex-grow container mx-auto p-6">
         <section id='home'>
           <HomePage />
         </section>

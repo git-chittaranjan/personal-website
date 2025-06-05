@@ -64,7 +64,7 @@ const rightSkills = [
 
 export default function SkillsSection() {
     return (
-        <div className="pt-10 lg:pt-20 pb-10 lg:pb-20">
+        <div className="pt-30 lg:pt-30">
             
             <div
                 className="relative min-h-screen bg-cover bg-center transition-all pb-10"

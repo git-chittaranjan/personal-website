@@ -83,9 +83,9 @@ const projects = [
 
 export default function ProjectGrid() {
     return (
-        <div className="pt-10 lg:pt-20 pb-10 lg:pb-20">
+        <div className="pt-30 lg:pt-30 lg:pb-10">
             <div className="px-4 max-w-7xl mx-auto">
-                <div className="flex justify-start lg:justify-end pr-4 pb-10">
+                <div className="flex justify-start lg:justify-end pr-4 pb-10 lg:pb-12">
                     <div className="text-left lg:text-right w-full max-w-xl">
                         <h2 className="text-3xl font-bold text-white pl-2 lg:pl-0 lg:pr-2">
                             Some of My Work
