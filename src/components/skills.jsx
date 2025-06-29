@@ -1,5 +1,5 @@
 
-import { FaCode, FaReact, FaJsSquare, FaGithub, FaGitAlt, FaProjectDiagram, FaUsersCog } from "react-icons/fa";
+import { FaCode, FaReact, FaJsSquare, FaGithub, FaGitAlt, FaProjectDiagram, FaUsersCog, FaWordpress } from "react-icons/fa";
 import { SiTailwindcss, SiDotnet, SiVercel, SiMysql, SiPostman, SiJirasoftware, SiDbeaver } from "react-icons/si";
 import { MdApi } from "react-icons/md";
 import { BsDatabase } from "react-icons/bs";
@@ -55,7 +55,7 @@ const rightSkills = [
         category: "Others",
         skills: [
             { name: "Project Management", icon: <SiJirasoftware /> },
-            { name: "Data Structure", icon: <TbBinaryTree /> },
+            { name: "WordPress", icon: <FaWordpress /> },
             { name: "Agile (Scrum)", icon: <FaUsersCog /> },
             { name: "Design Patterns", icon: <FaProjectDiagram /> },
         ],

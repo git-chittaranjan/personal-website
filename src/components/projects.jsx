@@ -79,6 +79,19 @@ const projects = [
         visitLink: "#",
         codeLink: "https://github.com/git-chittaranjan/shopping-cart",
     },
+    {
+        id: 6,
+        title: "Blogging Application - WordPress",
+        description: "An intuitive blogging application built with WordPress, offering seamless content management, customizable themes and responsive design, enabling to create and share engaging blogs effortlessly.",
+        technologies: [
+            "WordPress",
+            "XAMPP Server",
+            "MySql",
+        ],
+        image: "/assets/word-press.png",
+        visitLink: "",
+        codeLink: "",
+    },
 ];
 
 export default function ProjectGrid() {
