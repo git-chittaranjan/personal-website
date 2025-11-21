@@ -17,25 +17,25 @@ const About = () => {
 
                     <div>
                         <p className='font-semibold text-lg text-gray-200 pb-2'>Hello! My name is Chittaranjan Saha</p>
-                        <p className="text-gray-300 text-base md:text-lg leading-relaxed">
-                            I am a Software Engineer with two years of experience in Web
-                            Application Development at YES Bank Pvt. Ltd. and an additional
-                            three years of experience serving as the Technology Owner for the
-                            Offer Management System.
+                        <p className="text-gray-300 text-base md:text-base leading-relaxed">
+                            I am a Software Engineer with two years of experience in Web Application Development at YES Bank Pvt. Ltd.
+                            followed by three years as the Technology Owner for the Offer Management System at ICICI Bank. I have worked
+                            extensively as a Full Stack Developer, contributing to end-to-end solution design, development, deployment,
+                            and system enhancement.
                         </p>
 
                         <p className='font-bold text-sm text-gray-200 pt-6 pb-2'> AREAS OF EXPERTISE</p>
-                        <p className="text-gray-300 text-base md:text-lg leading-relaxed">
-                            Worked as a Full Stack Developer.
-                            Expertise in Database, .NET and various types
-                            of Tools and  Programming Languages with strong
-                            capabilities in both team leadership and project management.
+                        <p className="text-gray-300 text-sm md:text-base leading-relaxed">
+                            My technical expertise spans ASP .NET, C#, JavaScript, React, SQL Server and a wide range of development tools
+                            and frameworks. Over the years, I have also developed solid capabilities in team leadership, project coordination
+                            and cross-functional collaboration. With experience in both development and product ownership roles, I focus on
+                            building scalable and user-centric applications that meet business objectives while ensuring technical excellence.
                         </p>
                     </div>
                 </div>
 
                 {/* Right Side: Image */}
-                <div className="flex-1 lg:pt-15 lg:pl-6 lg:pr-6 w-full">
+                <div className="flex-1 lg:pt-15 lg:pl-6 lg:pr-6 w-full block md:hidden lg:block">
                     <AboutCard />
                 </div>
             </div>

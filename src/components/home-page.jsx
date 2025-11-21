@@ -1,7 +1,6 @@
 
-import { motion } from "framer-motion";
 import DownloadPDFButton from "./resume-download";
-import HomeImage from "./home-imaje";
+import HomeImage from "./home-image";
 
 const HomePage = () => {
     return (
@@ -28,7 +27,7 @@ const HomePage = () => {
                             <ul className="text-sm list-disc list-inside space-y-1">
                                 <li><strong>Backend:</strong> C#, ASP.NET Core MVC, Web API, Entity Framework, ADO.NET</li>
                                 <li><strong>Frontend:</strong> React, JavaScript, Tailwind, Ajax, jQuery, HTML5, CSS3, WordPress</li>
-                                <li><strong>Database:</strong> SQL Server, MySQL</li>
+                                <li><strong>Database:</strong> SQL Server, PostgreSQL, MySQL</li>
                                 <li><strong>DevOps Tools:</strong> Git & GitHub, Vercel</li>
                                 <li><strong>Architecture:</strong> RESTful APIs, MVC, Clean Architecture</li>
                                 <li><strong>Methodologies:</strong> Agile (Scrum), SOLID principles, Design Patterns</li>

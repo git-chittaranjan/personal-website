@@ -3,13 +3,13 @@ import { motion } from 'framer-motion';
 
 const AboutCard = () => {
     const info = [
-        { label: 'Secondary', value: 'JNV Birbhum' },
-        { label: 'Higher Secondary', value: 'JNV Bangalore' },
-        { label: 'B. Tech', value: 'NIT Karnataka' },
-        { label: 'Current Organization', value: 'ICICI Bank' },
-        { label: 'Current Location', value: 'Hyderabad, India' },
-        { label: 'Position', value: 'Manager' },
-        { label: 'Role', value: 'Application Owner' },
+        { label: 'Primary Skills', value: 'ASP.NET Core, SQL Server, React' },
+        { label: 'Domain Expertise', value: 'Banking Technologies, Marketing Technologies' },
+        { label: 'Key Responsibilities', value: 'Solution Design, Application Ownership' },
+        { label: 'Current Organization', value: 'ICICI Bank, Hyderabad, India' },
+        { label: 'Graduation', value: 'National Institute of Technology, Karnataka' },
+        { label: 'Certifications', value: 'Full Stack Developer, Scrum Master, AEP' },
+        { label: 'Strengths', value: 'Problem solving, Ownership Mindset, Attention to Detail' },
         // { label: 'Experience', value: '5 Years' },
     ];
 
@@ -23,13 +23,13 @@ const AboutCard = () => {
         >
             <div
                 className="relative bg-cover bg-center"
-                style={{ backgroundImage: "url('/assets/about.jpeg')" }}
+                style={{ backgroundImage: "url('/assets/about.jpg')" }}
             >
                 {/* Overlay a semi-transparent layer above the background image but below the content. */}
-                <div className="absolute inset-0 bg-black/70"></div>
+                <div className="absolute inset-0 bg-black/75"></div>
 
                 <div className="relative z-10 flex flex-col">
-                    <div className="flex flex-col px-4 pb-3">
+                    <div className="flex flex-col px-4 pb-6 overflow-x-auto whitespace-nowrap">
                         <div className="text-center mb-4">
                             <p className="text-[16px] font-bold text-white pt-3">Chittaranjan Saha</p>
                             <p className="text-[12px] font-semibold text-gray-300 pt-2">.NET Full Stack Developer with React</p>
@@ -44,6 +44,7 @@ const AboutCard = () => {
                         ))}
                     </div>
                 </div>
+
             </div>
         </motion.div>
     );
