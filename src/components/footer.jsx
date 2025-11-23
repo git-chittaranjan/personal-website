@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin, FaTwitter, FaInstagram, FaFacebook, FaYoutube } f
 
 const Footer = () => {
     return (
-        <footer className="bg-gray-900 text-white mt-8 py-8">
+        <footer className="bg-black text-white mt-8 py-8 border-t-2 border-t-gray-700">
             <div className="container mx-auto text-center space-y-2">
 
                 {/* Copyright Section */}
