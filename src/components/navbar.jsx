@@ -40,7 +40,7 @@ const Navbar = () => {
 
 
                 <div className="flex items-center space-x-4 md:space-x-8 text-sm font-bold">
-                    <a href="/" className="text-white bg-gray-800 hover:text-black hover:bg-gray-200 px-2 py-1 rounded"                    >
+                    <a href="https://app.chittaranjansaha.com/" className="text-white bg-gray-800 hover:text-black hover:bg-gray-200 px-2 py-1 rounded"                    >
                         Login
                     </a>
 
