@@ -3,53 +3,53 @@ import { Github } from "lucide-react";
 import { FiGlobe } from "react-icons/fi";
 
 const projects = [
-    {
-        id: 1,
-        title: "Personal Portfolio Website",
-        description: "Designed and developed a responsive personal website using modern web technologies to showcase Technical Skills, Experience, and Personal Projects. Implemented Routing and a Contact form integrated with Email Service.",
-        technologies: [
-            "React",
-            "Tailwind",
-            "EmailJS",
-            "HTML",
-            "CSS",
-            "JS"
-        ],
-        image: "/assets/personal-website.png",
-        visitLink: "https://www.chittaranjansaha.com/",
-        codeLink: "https://github.com/git-chittaranjan/personal-website",
-    },
-    {
-        id: 2,
-        title: "Certification Verification Page",
-        description: "Developed a web application for real-time certificate verification, enabling users to authenticate issued certificates via unique Certificate IDs or embedded QR codes. Built using Next.js and React, with dynamic PDF generation using pdf-lib and rendering through pdfjs-dist.",
-        technologies: [
-            "React",
-            "Tailwind",
-            "Router",
-            "pdf-lib",
-            "pdfjs-dist",
-            "ErrorBoundary"
-        ],
-        image: "/assets/certificate-verification.png",
-        visitLink: "https://projects.certificate-verification.chittaranjansaha.com/?id=EMLC-0325-ETCUYZW0I1",
-        codeLink: "https://github.com/git-chittaranjan/certificate-verification-app",
-    },
-    {
-        id: 3,
-        title: "Invoice PDF Generation",
-        description: "Built a React-based solution for generating invoice PDFs using the @react-pdf library. Designed dynamic, styled invoice templates with real-time data binding, enabling seamless PDF creation and download directly from the browser.",
-        technologies: [
-            "Next.js",
-            "Tailwind",
-            "react-pdf",
-            "react-pdf-table",
-            "Fetch API"
-        ],
-        image: "/assets/invoice.png",
-        visitLink: "#",
-        codeLink: "https://github.com/git-chittaranjan/invoice-pdf-generator",
-    },
+    // {
+    //     id: 1,
+    //     title: "Personal Portfolio Website",
+    //     description: "Designed and developed a responsive personal website using modern web technologies to showcase Technical Skills, Experience, and Personal Projects. Implemented Routing and a Contact form integrated with Email Service.",
+    //     technologies: [
+    //         "React",
+    //         "Tailwind",
+    //         "EmailJS",
+    //         "HTML",
+    //         "CSS",
+    //         "JS"
+    //     ],
+    //     image: "/assets/personal-website.png",
+    //     visitLink: "https://www.chittaranjansaha.com/",
+    //     codeLink: "https://github.com/git-chittaranjan/personal-website",
+    // },
+    // {
+    //     id: 2,
+    //     title: "Certification Verification Page",
+    //     description: "Developed a web application for real-time certificate verification, enabling users to authenticate issued certificates via unique Certificate IDs or embedded QR codes. Built using Next.js and React, with dynamic PDF generation using pdf-lib and rendering through pdfjs-dist.",
+    //     technologies: [
+    //         "React",
+    //         "Tailwind",
+    //         "Router",
+    //         "pdf-lib",
+    //         "pdfjs-dist",
+    //         "ErrorBoundary"
+    //     ],
+    //     image: "/assets/certificate-verification.png",
+    //     visitLink: "https://projects.certificate-verification.chittaranjansaha.com/?id=EMLC-0325-ETCUYZW0I1",
+    //     codeLink: "https://github.com/git-chittaranjan/certificate-verification-app",
+    // },
+    // {
+    //     id: 3,
+    //     title: "Invoice PDF Generation",
+    //     description: "Built a React-based solution for generating invoice PDFs using the @react-pdf library. Designed dynamic, styled invoice templates with real-time data binding, enabling seamless PDF creation and download directly from the browser.",
+    //     technologies: [
+    //         "Next.js",
+    //         "Tailwind",
+    //         "react-pdf",
+    //         "react-pdf-table",
+    //         "Fetch API"
+    //     ],
+    //     image: "/assets/invoice.png",
+    //     visitLink: "#",
+    //     codeLink: "https://github.com/git-chittaranjan/invoice-pdf-generator",
+    // },
     {
         id: 4,
         title: "CRUD Application using MVC",
@@ -77,7 +77,7 @@ const projects = [
         ],
         image: "/assets/shopping.png",
         visitLink: "#",
-        codeLink: "https://github.com/git-chittaranjan/shopping-cart",
+        codeLink: "#",
     },
     {
         id: 6,
