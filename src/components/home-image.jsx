@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 
 export default function HomeImage() {
     const slides = [
+        "/assets/home-page-banners/qr-code-generator.jpg",
         "/assets/home-page-banners/banner1.jpg",
         "/assets/home-page-banners/banner2.jpg",
         "/assets/home-page-banners/banner3.jpg",
