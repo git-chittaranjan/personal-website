@@ -3,12 +3,12 @@ import { motion } from "framer-motion";
 
 export default function HomeImage() {
     const slides = [
+        "/assets/home-page-banners/personal-website.png",
         "/assets/home-page-banners/qr-code-generator.jpg",
-        "/assets/home-page-banners/banner1.jpg",
-        "/assets/home-page-banners/banner2.jpg",
-        "/assets/home-page-banners/banner3.jpg",
-        "/assets/home-page-banners/banner4.jpg",
-        "/assets/home-page-banners/banner3.jpg",
+        "/assets/home-page-banners/certificate-verification.jpg",
+        "/assets/home-page-banners/invoice-generator.jpg",
+        "/assets/home-page-banners/offers-implementation-api.png",
+        "/assets/home-page-banners/login-page.jpg",
     ];
 
     const [index, setIndex] = useState(0);
@@ -16,7 +16,7 @@ export default function HomeImage() {
     useEffect(() => {
         const interval = setInterval(() => {
             setIndex((prev) => (prev + 1) % slides.length);
-        }, 3000);
+        }, 4000);
         return () => clearInterval(interval);
     }, []);
 
@@ -24,10 +24,10 @@ export default function HomeImage() {
     const prevSlide = () => setIndex((prev) => (prev - 1 + slides.length) % slides.length);
 
     return (
-        <div className="relative w-full h-[400px] md:h-[620px] lg:h-[700px] overflow-hidden pt-8 md:pt-12 lg:pt-24 lg:pr-10">
+        <div className="relative w-full h-[400px] md:h-[600px] lg:h-[700px] overflow-hidden pt-8 md:pt-12 lg:pt-24 lg:pr-12">
 
             {/* Slider Container */}
-            <div className="relative w-full h-[50%] mt-4 rounded-2xl overflow-hidden shadow-xl">
+            <div className="relative w-full h-[50%] mt-4 rounded-2xl overflow-hidden shadow-xl border-2 border-gray-300">
                 {slides.map((src, i) => (
                     <motion.img
                         key={i}
@@ -73,9 +73,6 @@ export default function HomeImage() {
             {/* Three Circles */}
             <div className="mt-15 flex justify-center gap-8 md:gap-12">
                 {[
-                    // { text: "Inspire", bg: "bg-yellow-900" },
-                    // { text: "Learn", bg: "bg-green-900" },
-                    // { text: "Grow", bg: "bg-red-900" },
                     { text: "SQL", bg: "bg-yellow-900" },
                     { text: ".NET", bg: "bg-green-900" },
                     { text: "REACT", bg: "bg-red-900" },
