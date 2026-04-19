@@ -63,6 +63,8 @@ const projects = [
         image: "/assets/mvc.png",
         visitLink: "#",
         codeLink: "#",
+        enableVisit: false,
+        enableCode: false
     },
     {
         id: 5,
@@ -78,6 +80,8 @@ const projects = [
         image: "/assets/shopping.png",
         visitLink: "#",
         codeLink: "#",
+        enableVisit: false,
+        enableCode: false
     },
     {
         id: 6,
@@ -91,6 +95,8 @@ const projects = [
         image: "/assets/word-press.png",
         visitLink: "",
         codeLink: "",
+        enableVisit: false,
+        enableCode: false
     },
 ];
 
@@ -104,6 +110,22 @@ export default function ProjectGrid() {
                             Some of My Work
                         </h2>
                         <div className="w-67 h-1 bg-yellow-400 mt-2 rounded ml-0 lg:ml-auto"></div>
+                    </div>
+                </div>
+
+
+                <div className="flex justify-center mt-4 pb-16">
+                    <div className="border-3 border-yellow-600 bg-yellow-50 rounded-lg p-6 max-w-4xl shadow-md">
+                        <p className="text-sm md:text-base text-gray-800 text-center leading-relaxed">
+                            🔐 Log in to explore the full project list, view source code, and access GitHub repositories.
+                        </p>
+                        <p className="text-sm md:text-base text-gray-500 text-center mt-2 leading-relaxed">
+                            The{" "}
+                            <span className="text-yellow-500 font-semibold">"Visit"</span>{" "}
+                            and{" "}
+                            <span className="text-yellow-500 font-semibold">"Code"</span>{" "}
+                            actions will be enabled upon successful login.
+                        </p>
                     </div>
                 </div>
 
@@ -150,10 +172,14 @@ export default function ProjectGrid() {
                                 </div>
                                 <div className="flex space-x-4 mt-auto">
                                     <a
-                                        href={project.visitLink}
+                                        href={project.enableVisit ? project.visitLink : undefined}
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="flex items-center justify-center gap-2 flex-1 bg-amber-500 hover:bg-amber-600 text-black font-bold py-2 px-4 rounded-xl text-center"
+                                        className={`flex items-center justify-center gap-2 flex-1 font-bold py-2 px-4 rounded-xl text-center
+                                        ${project.enableVisit
+                                                ? "bg-amber-500 hover:bg-amber-600 text-black cursor-pointer"
+                                                : "bg-gray-400 text-gray-700 cursor-not-allowed pointer-events-none"
+                                            }`}
                                     >
                                         <span className="flex items-center justify-center w-6 h-6 rounded-full bg-black bg-opacity-20">
                                             <FiGlobe size={16} strokeWidth={2} className="text-white" />
@@ -161,17 +187,19 @@ export default function ProjectGrid() {
                                         Visit
                                     </a>
                                     <a
-                                        href={project.codeLink}
+                                        href={project.enableCode ? project.codeLink : undefined}
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="flex items-center justify-center gap-2 flex-1 bg-amber-500 hover:bg-amber-600 text-black font-bold py-2 px-4 rounded-xl text-center"
-                                    >
+                                        className={`flex items-center justify-center gap-2 flex-1 font-bold py-2 px-4 rounded-xl text-center
+                                        ${project.enableVisit
+                                                ? "bg-amber-500 hover:bg-amber-600 text-black cursor-pointer"
+                                                : "bg-gray-400 text-gray-700 cursor-not-allowed pointer-events-none"
+                                            }`}                                >
                                         <div className="bg-black p-1 rounded-full">
                                             <Github strokeWidth={3} className="w-4 h-4 text-white font-bold" />
                                         </div>
                                         Code
                                     </a>
-
                                 </div>
                             </div>
                         </motion.div>
