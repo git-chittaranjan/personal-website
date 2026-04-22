@@ -7,7 +7,7 @@ export default function HomeImage() {
         "/assets/home-page-banners/qr-code-generator.jpg",
         "/assets/home-page-banners/certificate-verification.jpg",
         "/assets/home-page-banners/invoice-generator.jpg",
-        "/assets/home-page-banners/offers-implementation-api.png",
+        // "/assets/home-page-banners/offers-implementation-api.png",
         "/assets/home-page-banners/login-page.jpg",
     ];
 

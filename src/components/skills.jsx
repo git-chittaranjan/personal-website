@@ -1,9 +1,10 @@
 
 import { FaCode, FaReact, FaJsSquare, FaGithub, FaGitAlt, FaProjectDiagram, FaUsersCog, FaWordpress } from "react-icons/fa";
-import { SiTailwindcss, SiDotnet, SiVercel, SiMysql, SiPostman, SiJirasoftware, SiDbeaver } from "react-icons/si";
+import { SiTailwindcss, SiDotnet, SiVercel, SiMysql, SiPostman, SiJirasoftware, SiDbeaver, SiPostgresql } from "react-icons/si";
 import { MdApi } from "react-icons/md";
 import { BsDatabase } from "react-icons/bs";
 import { TbBrandVscode, TbBinaryTree } from "react-icons/tb";
+import { FaCloud } from "react-icons/fa";
 
 const leftSkills = [
     {
@@ -19,14 +20,14 @@ const leftSkills = [
         category: "Database",
         skills: [
             { name: "SQL Server", icon: <BsDatabase /> },
-            { name: "MySQL", icon: <SiMysql /> },
+            { name: "PostgreSQL", icon: <SiPostgresql /> },
         ],
     },
     {
         category: "Tools",
         skills: [
             { name: "VS & VS Code", icon: <TbBrandVscode /> },
-            { name: "SSMS", icon: <BsDatabase /> },
+            { name: "SSRS", icon: <BsDatabase /> },
             { name: "DBeaver", icon: <SiDbeaver /> },
             { name: "Postman", icon: <SiPostman /> },
         ],
@@ -48,6 +49,7 @@ const rightSkills = [
         skills: [
             { name: "Git", icon: <FaGitAlt /> },
             { name: "GitHub", icon: <FaGithub /> },
+            { name: "Azure Cloud", icon: <FaCloud /> },
             { name: "Vercel", icon: <SiVercel /> },
         ],
     },
@@ -57,7 +59,7 @@ const rightSkills = [
             { name: "Project Management", icon: <SiJirasoftware /> },
             { name: "WordPress", icon: <FaWordpress /> },
             { name: "Agile (Scrum)", icon: <FaUsersCog /> },
-            { name: "Design Patterns", icon: <FaProjectDiagram /> },
+            { name: "Problem Solving", icon: <FaProjectDiagram /> },
         ],
     },
 ];
@@ -65,7 +67,7 @@ const rightSkills = [
 export default function SkillsSection() {
     return (
         <div className="pt-30 lg:pt-30">
-            
+
             <div
                 className="relative min-h-screen bg-cover bg-center transition-all pb-10"
                 style={{ backgroundImage: "url('/assets/skill.jpg')" }}
