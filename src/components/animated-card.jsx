@@ -31,7 +31,7 @@ const AnimatedCard = ({ exp = {}, direction = "left" }) => {
             whileHover={{
                 scale: 1.1
             }}
-            className="w-full max-w-md p-4 rounded-lg border-4 shadow-md bg-pink-500 border-cyan-600 transition-all duration-1000 hover:border-orange-500"
+            className="w-full max-w-md p-4 rounded-lg border-4 shadow-md bg-[#191f14] border-cyan-600 transition-all duration-1000 hover:border-orange-500"
         >
             <div className="flex items-start space-x-4">
                 <div className="flex-shrink-0">{exp.icon}</div>
